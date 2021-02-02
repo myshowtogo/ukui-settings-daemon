@@ -42,7 +42,7 @@ mouse_lib.files = $$OUT_PWD/libmouse.so
 touchpad.path = /usr/bin/
 touchpad.files = $$PWD/touchpad-state
 
-udev.path = /lib/udev/rules.d/
+udev.path = /usr/lib/udev/rules.d/
 udev.files = $$PWD/01-touchpad-state-onmouse.rules
 
 INSTALLS += mouse_lib touchpad udev
